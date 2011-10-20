@@ -1,0 +1,4 @@
+<layers>
+    <layer name="collective.hashtags"
+           interface="collective.hashtags.interfaces.ICollectiveHashtagsLayer" />
+</layers>
