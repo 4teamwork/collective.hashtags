@@ -1,0 +1,28 @@
+<dl class="portlet portletTagsPortlet"
+    i18n:domain="collective.hashtags">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span i18n:translate="label_tags">
+           Tags
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <ul class="tagListing">
+            <li tal:repeat="tag view/tags">
+                <a tal:attributes="href tag/url;"
+                   tal:content="string: #${tag/name}">
+                </a>
+            </li>
+        </ul>
+        <div class="visualClear"><!-- --></div>
+    </dd>
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>

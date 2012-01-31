@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<portlets>
+
+    <!-- Portlet assignements -->
+    <assignment 
+        type="collective.hashtags.TagsPortlet"
+        manager="plone.rightcolumn"
+        category="context"
+        key="/"
+        insert-after="*"
+        />
+
+</portlets>

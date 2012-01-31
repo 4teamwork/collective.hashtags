@@ -8,6 +8,16 @@
 
   <include package="plone.behavior" file="meta.zcml" />
 
+  <plone:portlet
+      name="collective.hashtags.TagsPortlet"
+      interface=".tags.ITagsPortlet"
+      assignment=".tags.Assignment"
+      view_permission="zope2.View"
+      edit_permission="cmf.ManagePortal"
+      renderer=".tags.Renderer"
+      addview="plone.app.portlets.portlets.base.NullAddForm"
+      />
+
   <subscriber
       for="plone.dexterity.interfaces.IDexterityContent
            zope.lifecycleevent.interfaces.IObjectModifiedEvent"
