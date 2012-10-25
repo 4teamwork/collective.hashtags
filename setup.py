@@ -5,6 +5,7 @@ version = '1.0'
 
 tests_require = [
     'plone.app.testing',
+    'plone.namedfile', #namedfile is required with dexterity but not defined
     ]
 
 setup(name='collective.hashtags',
@@ -33,6 +34,9 @@ setup(name='collective.hashtags',
 
       install_requires=[
         'setuptools',
+        'plone.behavior',
+        'plone.app.textfield',
+        'plone.dexterity',
         'Plone',
         ],
       tests_require=tests_require,
