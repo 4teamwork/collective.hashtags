@@ -49,3 +49,7 @@ class TestSetup(unittest.TestCase):
         self.assertEqual(
             self.filter('#hash.tag'),
             '<a href="%shash">#hash</a>.tag' % url)
+        #anchor link
+        self.assertEqual(
+            self.filter('text <a href="#anchor">anchor</a>'),
+            'text <a href="#anchor">anchor</a>')
