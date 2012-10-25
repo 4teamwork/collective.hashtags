@@ -7,7 +7,7 @@ from zope import schema
 def add_hashtags(obj, event):
     """Adds hashtags to subject field.
     """
-    pattern = re.compile(r'\B#\w{1,}', re.UNICODE)
+    pattern = re.compile(r'\B#\w{1,}(?!")\b', re.UNICODE)
     fields = {}
     for schemata in iterSchemata(obj):
         for name, field in schema.getFields(schemata).items():

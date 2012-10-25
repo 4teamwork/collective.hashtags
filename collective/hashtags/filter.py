@@ -14,7 +14,7 @@ class HashTagsToLinks(object):
     def is_enabled(self):
         return True
 
-    pattern = re.compile(r'\B#(\w{1,})', re.UNICODE)
+    pattern = re.compile(r'\B#(\w{1,}(?!")\b)', re.UNICODE)
 
     def __call__(self, data):
         portal_url = getToolByName(self.context, 'portal_url').portal_url()
