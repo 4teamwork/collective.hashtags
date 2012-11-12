@@ -13,6 +13,8 @@ Links
 - Main github project repository: https://github.com/4teamwork/collective.hashtags
 - Issue tracker: https://github.com/4teamwork/collective.hashtags/issues
 - Package on pypi: http://pypi.python.org/pypi/collective.hashtags
+- Continuous integration: https://jenkins.4teamwork.ch/search?q=collective.hashtags
+
 
 
 Copyright
