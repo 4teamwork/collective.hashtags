@@ -16,9 +16,12 @@ setup(name='collective.hashtags',
 
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
+
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
+        'Framework :: Plone',
+        'Framework :: Plone :: 4.1',
+        'Framework :: Plone :: 4.2',
+        'Programming Language :: Python',
         ],
 
       keywords='plone collective hashtags',
