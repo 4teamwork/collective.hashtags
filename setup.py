@@ -21,6 +21,7 @@ setup(name='collective.hashtags',
         'Framework :: Plone',
         'Framework :: Plone :: 4.1',
         'Framework :: Plone :: 4.2',
+        'Framework :: Plone :: 4.3',
         'Programming Language :: Python',
         ],
 

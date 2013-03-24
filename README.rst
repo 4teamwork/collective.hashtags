@@ -7,6 +7,13 @@ which gets the hashtags and replaces them with a link to display all object with
 the selected hashtag.
 
 
+Compatibility
+-------------
+
+Runs with `Plone <http://www.plone.org/>`_ `4.1`, `4.2` and `4.3`.
+
+
+
 Links
 =====
 
