@@ -17,9 +17,9 @@ Runs with `Plone <http://www.plone.org/>`_ `4.1`, `4.2` and `4.3`.
 Links
 =====
 
-- Main github project repository: https://github.com/4teamwork/collective.hashtags
-- Issue tracker: https://github.com/4teamwork/collective.hashtags/issues
-- Package on pypi: http://pypi.python.org/pypi/collective.hashtags
+- Github: https://github.com/4teamwork/collective.hashtags
+- Issues: https://github.com/4teamwork/collective.hashtags/issues
+- Pypi: http://pypi.python.org/pypi/collective.hashtags
 - Continuous integration: https://jenkins.4teamwork.ch/search?q=collective.hashtags
 
 
