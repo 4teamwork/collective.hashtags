@@ -26,7 +26,7 @@ setup(name='collective.hashtags',
         ],
 
       keywords='plone collective hashtags',
-      author='4teamwork GmbH',
+      author='4teamwork AG',
       author_email='mailto:info@4teamwork.ch',
       url='https://github.com/4teamwork/collective.hashtags',
       license='GPL2',
