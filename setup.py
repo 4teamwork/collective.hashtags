@@ -6,6 +6,7 @@ version = '1.0'
 tests_require = [
     'plone.app.testing',
     'plone.namedfile', #namedfile is required with dexterity but not defined
+    'unittest2',
     ]
 
 setup(name='collective.hashtags',
